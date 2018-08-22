@@ -26,12 +26,14 @@ To re-create the original file:
 
 Few examples:
 
-	Mauros-MacBook-Pro:go maurorappa$ file cat
+	$ file cat
 	cat: Mach-O 64-bit executable x86_64
-	Mauros-MacBook-Pro:go maurorappa$ file cat.png
+	$ file cat.png
 	cat.png: PNG image data, 50331776 x 33554432, 16-bit grayscale, non-interlaced
-	Mauros-MacBook-Pro:go maurorappa$ file cat.png_orig 
+	$ file cat.png_orig 
 	cat.png_orig: Mach-O 64-bit executable x86_64
-	Mauros-MacBook-Pro:go maurorappa$ file cat.ico
+	$ file cat.ico
 	cat.ico: MS Windows icon resource - 2 icons, 16x16, 32 bits/pixel, 32x32, 207 colors, 65261 planes, 7 bits/pixel
 
+
+Tested on RHEL7 and MacOS 10, fairly sure will work everywhere
